@@ -1,0 +1,114 @@
+body{
+    background-image: url(/Resturant/images/bg4.jpg);
+    background-size: cover;
+    background-position: center; 
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginpage{
+    display : flex;
+    height : auto;
+    width : auto;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 15px rgb(180, 180, 180);
+    border-radius: 10px;
+    
+}
+
+.loginhead{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.loginhead :first-letter{
+    text-decoration: underline;
+}
+.input input{
+    border-top: none;
+    border-left: none;
+    border-right : none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 14rem;
+    height: 2rem;
+    background-color:whitesmoke;
+}
+.btn button{
+    width:14.3rem;
+    height:2rem;
+    color:whitesmoke;
+    border-color: rgb(214, 16, 16);
+    border-radius: 5px;
+    background:linear-gradient(to right,rgb(165, 6, 6),rgb(255, 72, 72) 55%);
+}
+.btn{
+    margin-top:10px ;
+    margin-bottom: 20px;
+}
+
+.fp a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9rem;
+    color: rgb(3, 195, 238);
+}
+
+.para1{
+    text-align: center;
+    font-size: .8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.twitter a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9rem;
+    word-spacing: .5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color:rgb(255, 255, 255);
+    border-color: rgb(16, 191, 214);
+    border-radius: 5px;
+    background:linear-gradient(to right,rgb(6, 138, 165) ,rgb(72, 237, 255) );
+}
+.twitter{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.facebook a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9rem;
+    word-spacing: .5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color:rgb(255, 255, 255);
+    border-color: rgb(16, 191, 214);
+    border-radius: 5px;
+    background:linear-gradient(to right,rgb(22, 6, 165),rgb(127, 135, 234));
+}
+.facebook{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.loginpage a:hover{
+    color: black;
+}
+
+.loginpage input:hover{
+    border-color: blueviolet;
+    border-width: 5px;
+}
+
+.btn :hover{
+    background:linear-gradient(to right,rgb(255, 72, 72),rgb(165, 6, 6));
+}
